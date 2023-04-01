@@ -1,6 +1,9 @@
-# OpenAI 接口功能体验, 实现 chatpgt、生成图像
+# 项目原地址
+https://github.com/zuoxiaobai/chatgpt-node-vue3
 
-OpenAI ChatGPT server
+感谢开源者,在基于以上项目中对模版、代码备注、优化、改善页面框架,用于个人学习
+# 接口功能体验, 实现 chatpgt、生成图像
+by ChatGPT server
 
 ## 代码部署运行
 
