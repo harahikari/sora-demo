@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/zuoxiaobai/chat-gpt-server#readme",
   "dependencies": {
+    "cryptojs": "^2.5.3",
     "dayjs": "^1.11.7",
     "koa": "^2.14.1",
     "koa-bodyparser": "^4.4.0",
@@ -25,5 +26,11 @@
     "koa-session": "^6.4.0",
     "koa-static": "^5.0.0",
     "openai": "^3.2.1"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {
+    "crypto-js": "^4.1.1"
   }
 }

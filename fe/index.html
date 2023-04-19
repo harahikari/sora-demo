@@ -223,9 +223,10 @@
           </div>
         </template>
       </div>
-      <div class="chat-input" v-if="funcType === 'Chat'">
-        <div class="m-b-20">
+      <div class="chat-input" v-if="funcType === 'Chat'" style="display: flex;">
+        <div >
           <el-input
+            style="width: 200px;"
             type="textarea"
             v-model="chatContent"
             placeholder="请输入文本内容"
@@ -234,7 +235,7 @@
         <el-button type="primary" @click="sendChat">发送</el-button>
       </div>
       <div class="chat-input" v-else-if="funcType === 'Image generation'">
-        <div class="m-b-20">
+        <div class="">
           <el-input
             type="textarea"
             v-model="chatContent"
